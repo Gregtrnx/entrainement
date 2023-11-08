@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(224, 224, 224);
+    background: linear-gradient(90deg, rgba(224, 224, 224, 1) 0%, rgba(250, 250, 250, 1) 100%);
+}
+
+/********************/
+/* En-tête */
+/********************/
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26)
+}
+
+.logo {
+    width: 5vw;
+}
+
+h1 {
+    font-weight: 15;
+    margin-right: auto;
+}
+
+.menu {
+    font-weight: bold;
+    font-size: large;
+}
+
+.ytb {
+    margin-left: auto;
+    margin-right: 32px;
+    border-style: groove;
+    border-color: blue;
+    padding: 12px;
+    font-size: medium;
+    color: blue;
+}
+
+/********************/
+/* Page d'acceuil */
+/********************/
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    gap: 64px;
+}
+
+.formulaire {
+    background-color: #f0f0f0;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    height: 25vw;
+    border-radius: 15%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .26);
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.FM {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.CR {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.texte {
+    font-size: large;
+}
+
+.conn {
+    width: 30vw;
+}
+
+.ok {
+    border: none;
+    padding: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+    border-radius: 14px;
+    margin-left: 64px;
+    margin-right: 64px;
+    background-color: #6C63FF;
+    font-weight: bold;
+    font-size: large;
+    color: #f0f0f0;
+}
+
+.figure {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    justify-content: center;
+    margin-top: 50vb;
+}
+
+.rond {
+    background: rgb(31, 67, 246);
+    background: linear-gradient(135deg, rgba(31, 67, 246, 1) 0%, rgba(186, 55, 255, 1) 100%);
+    padding: 144px;
+    border-radius: 50%;
+    box-shadow: 10px 12px 20px rgba(0, 0, 0, .26);
+}
+
+.titree {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.bas_head {
+    background-color: black;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    margin-top: 15vw;
+}
+
+.infoo {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 34px;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    margin-right: 34px;
+}
