@@ -79,6 +79,7 @@ h1 {
     gap: 14px;
     color: black;
     font-size: larger;
+    font-weight: bold;
     border-style: groove;
     border-radius: 8px;
     padding: 14px;
@@ -101,11 +102,17 @@ img{
 
 .crea_comp{
     color: #6C63FF;
+    margin-bottom: 10px;
+}
+
+.crea_comp2{
+    color: #6C63FF;
 }
 
 .rens{
     border-style: groove;
     border-radius: 8px;
+    border-width: 3px;
     padding: 14px;
     padding-left: 135px;
     padding-right: 64px;
@@ -119,4 +126,18 @@ img{
 }
 ::placeholder{
     font-size: larger;
+    opacity: 0.5;
+}
+
+.envoyer{
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+    padding-left: 143px;
+    padding-right: 143px;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
