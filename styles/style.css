@@ -28,6 +28,11 @@ header {
 h1 {
     font-weight: 15;
     margin-right: auto;
+    color: black;
+}
+
+.acc{
+    margin-right: auto;
 }
 
 .menu {
@@ -41,10 +46,17 @@ h1 {
     margin-left: auto;
     margin-right: 32px;
     border-style: groove;
-    border-color: blue;
+    border-color: black;
     padding: 12px;
     font-size: medium;
-    color: blue;
+    color: black;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.ytb:hover{
+    background-color: black;
+    color: #f0f0f0;
 }
 
 /********************/
